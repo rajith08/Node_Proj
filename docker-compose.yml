@@ -16,7 +16,7 @@ services:
     environment:
       APP_NAME: LearnDocker
       PORT: 3000
-      DB_URI: mongodb://mongo_db:27017/dockerlearn
+      DB_URI: mongodb://mongo_db:27017/Login-tut
     depends_on:
       - mongo_db
 
